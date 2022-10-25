@@ -1,0 +1,104 @@
+body {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-top: 1rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+}
+
+article {
+  margin-top: 3rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.logo {
+  width: 12rem;
+  height: auto;
+  margin-right: 6%;
+}
+
+.head_nav {
+  font-size: 2rem;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-right: 120px;
+}
+
+.map {
+  width: 44%;
+}
+
+.map_img {
+}
+
+.records {
+  width: 55%;
+  margin-left: 10px;
+}
+
+.record {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.record_img {
+  width: 30%;
+}
+.record_inimg {
+  width: 13rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.record_information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  width: 70%;
+}
+
+.record_title {
+  width: 60%;
+}
+.record_typ {
+  width: 40%;
+}
+
+.record_info {
+  width: 60%;
+}
+.record_tomap {
+  width: 40%;
+}
